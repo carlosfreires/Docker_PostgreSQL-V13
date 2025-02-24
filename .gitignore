@@ -1,0 +1,12 @@
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+
+# Ignorar diretórios do Docker
+dados_postgres/*
+!dados_postgres/
+
+# Ignorar configurações do sistema
+.DS_Store
